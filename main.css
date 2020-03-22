@@ -1,0 +1,60 @@
+body{
+	font-family: "Trebuchet MS", Arial;
+	animation: fadeInAnimation ease 2s; 
+	animation-iteration-count: 1; 
+	animation-fill-mode: forwards;
+}
+
+h1{
+	color: pink;
+}
+
+header nav{
+	display: flex;
+	justify-content: flex-end;
+}
+
+nav p{
+	color: pink;
+	font-size: 20px;
+	padding: 30px;
+}
+
+.jumbotron-home{
+	background-image: url(cherry_blossoms.png);
+	background-size: cover;
+	background-position: center;
+	height: 600px;
+}
+
+.jumbotron-page{
+	background-color: pink;
+}
+
+footer div {
+	display: flex;
+}
+
+footer p{
+	color: pink;
+}
+
+footer ul{
+	list-style: none;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.col-sm-1 img{
+	width: 35px;
+	height: 35px;
+}
+
+@keyframes fadeInAnimation { 
+	0%{ 
+		opacity: 0; 
+	} 
+	100%{ 
+		opacity: 1; 
+	}
+}
